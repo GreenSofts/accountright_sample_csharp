@@ -17,13 +17,9 @@ namespace MYOBApi.CSharp.Forms
         internal Panel Panel1;
         internal ComboBox CmboCustomer;
         internal Label LblCustomer;
-        internal Microsoft.VisualBasic.PowerPacks.RectangleShape RectangleShape1;
-        internal Microsoft.VisualBasic.PowerPacks.ShapeContainer ShapeContainer1;
         private System.ComponentModel.IContainer components;
         internal Label LblAddress;
         internal TextBox TxtAddress;
-        internal Microsoft.VisualBasic.PowerPacks.ShapeContainer ShapeContainer2;
-        internal Microsoft.VisualBasic.PowerPacks.RectangleShape RectangleShape2;
         internal Label V;
         internal TextBox TxtInvoiceNo;
         internal Label Label1;
@@ -55,12 +51,10 @@ namespace MYOBApi.CSharp.Forms
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.LblInvoice = new System.Windows.Forms.Label();
-            this.ShapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.RectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.ChkTaxInclusive = new System.Windows.Forms.CheckBox();
             this.BsServiceInvoice = new System.Windows.Forms.BindingSource(this.components);
@@ -86,8 +80,6 @@ namespace MYOBApi.CSharp.Forms
             this.TxtAddress = new System.Windows.Forms.TextBox();
             this.CmboCustomer = new System.Windows.Forms.ComboBox();
             this.LblCustomer = new System.Windows.Forms.Label();
-            this.ShapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.RectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.BtnRecord = new System.Windows.Forms.Button();
             this.DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,28 +100,6 @@ namespace MYOBApi.CSharp.Forms
             this.LblInvoice.Size = new System.Drawing.Size(153, 18);
             this.LblInvoice.TabIndex = 4;
             this.LblInvoice.Text = "Invoice - Service Layout";
-            // 
-            // ShapeContainer1
-            // 
-            this.ShapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.ShapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.ShapeContainer1.Name = "ShapeContainer1";
-            this.ShapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.RectangleShape1});
-            this.ShapeContainer1.Size = new System.Drawing.Size(784, 562);
-            this.ShapeContainer1.TabIndex = 5;
-            this.ShapeContainer1.TabStop = false;
-            // 
-            // RectangleShape1
-            // 
-            this.RectangleShape1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.RectangleShape1.BackColor = System.Drawing.Color.White;
-            this.RectangleShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
-            this.RectangleShape1.Location = new System.Drawing.Point(10, 25);
-            this.RectangleShape1.Name = "RectangleShape1";
-            this.RectangleShape1.Size = new System.Drawing.Size(760, 490);
             // 
             // Panel1
             // 
@@ -153,7 +123,6 @@ namespace MYOBApi.CSharp.Forms
             this.Panel1.Controls.Add(this.TxtAddress);
             this.Panel1.Controls.Add(this.CmboCustomer);
             this.Panel1.Controls.Add(this.LblCustomer);
-            this.Panel1.Controls.Add(this.ShapeContainer2);
             this.Panel1.Location = new System.Drawing.Point(14, 30);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(752, 480);
@@ -283,9 +252,9 @@ namespace MYOBApi.CSharp.Forms
             // ColAmount
             // 
             this.ColAmount.DataPropertyName = "Total";
-            dataGridViewCellStyle7.Format = "C2";
-            dataGridViewCellStyle7.NullValue = "0.00";
-            this.ColAmount.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Format = "C2";
+            dataGridViewCellStyle1.NullValue = "0.00";
+            this.ColAmount.DefaultCellStyle = dataGridViewCellStyle1;
             this.ColAmount.HeaderText = "Amount";
             this.ColAmount.Name = "ColAmount";
             // 
@@ -393,29 +362,6 @@ namespace MYOBApi.CSharp.Forms
             this.LblCustomer.TabIndex = 0;
             this.LblCustomer.Text = "Customer";
             // 
-            // ShapeContainer2
-            // 
-            this.ShapeContainer2.Location = new System.Drawing.Point(0, 0);
-            this.ShapeContainer2.Margin = new System.Windows.Forms.Padding(0);
-            this.ShapeContainer2.Name = "ShapeContainer2";
-            this.ShapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.RectangleShape2});
-            this.ShapeContainer2.Size = new System.Drawing.Size(752, 480);
-            this.ShapeContainer2.TabIndex = 2;
-            this.ShapeContainer2.TabStop = false;
-            // 
-            // RectangleShape2
-            // 
-            this.RectangleShape2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.RectangleShape2.BackColor = System.Drawing.Color.White;
-            this.RectangleShape2.FillColor = System.Drawing.Color.White;
-            this.RectangleShape2.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid;
-            this.RectangleShape2.Location = new System.Drawing.Point(8, 40);
-            this.RectangleShape2.Name = "RectangleShape2";
-            this.RectangleShape2.Size = new System.Drawing.Size(735, 326);
-            // 
             // BtnRecord
             // 
             this.BtnRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -438,9 +384,9 @@ namespace MYOBApi.CSharp.Forms
             // DataGridViewTextBoxColumn2
             // 
             this.DataGridViewTextBoxColumn2.DataPropertyName = "Total";
-            dataGridViewCellStyle8.Format = "C2";
-            dataGridViewCellStyle8.NullValue = "0.00";
-            this.DataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Format = "C2";
+            dataGridViewCellStyle2.NullValue = "0.00";
+            this.DataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle2;
             this.DataGridViewTextBoxColumn2.FillWeight = 200F;
             this.DataGridViewTextBoxColumn2.HeaderText = "Amount";
             this.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2";
@@ -449,9 +395,9 @@ namespace MYOBApi.CSharp.Forms
             // DataGridViewTextBoxColumn3
             // 
             this.DataGridViewTextBoxColumn3.DataPropertyName = "RowVersion";
-            dataGridViewCellStyle9.Format = "C2";
-            dataGridViewCellStyle9.NullValue = "0.00";
-            this.DataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Format = "C2";
+            dataGridViewCellStyle3.NullValue = "0.00";
+            this.DataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle3;
             this.DataGridViewTextBoxColumn3.HeaderText = "RowVersion";
             this.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3";
             this.DataGridViewTextBoxColumn3.Visible = false;
@@ -469,10 +415,8 @@ namespace MYOBApi.CSharp.Forms
             this.Controls.Add(this.BtnRecord);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.LblInvoice);
-            this.Controls.Add(this.ShapeContainer1);
             this.Name = "InvoiceForm";
             this.Load += new System.EventHandler(this.InvoiceFormLoad);
-            this.Controls.SetChildIndex(this.ShapeContainer1, 0);
             this.Controls.SetChildIndex(this.LblInvoice, 0);
             this.Controls.SetChildIndex(this.Panel1, 0);
             this.Controls.SetChildIndex(this.BtnRecord, 0);
